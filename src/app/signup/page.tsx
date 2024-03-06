@@ -14,7 +14,7 @@ export default function SignUp() {
 	const onSignUp = async () => {};
 
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen py-2 bg-indigo-800">
+		<div className="flex flex-col items-center justify-center min-h-screen py-2 bg-blue-600">
 			<h1 className="text-white text-3xl font-bold mb-6">Signup</h1>
 			<hr />
 			<div className="mb-0.5">
@@ -22,7 +22,7 @@ export default function SignUp() {
 					htmlFor="username"
 					className="block text-white text-lg font-bold mb-2"
 				>
-					username
+					Username
 				</label>
 				<input
 					className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-300 text-blue-900"
@@ -38,7 +38,7 @@ export default function SignUp() {
 					htmlFor="email"
 					className="block text-white text-lg font-bold mb-2"
 				>
-					email
+					Email
 				</label>
 				<input
 					className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-300 text-blue-900"
@@ -54,7 +54,7 @@ export default function SignUp() {
 					htmlFor="password"
 					className="block text-white text-lg font-bold mb-2"
 				>
-					password
+					Password
 				</label>
 				<input
 					className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-300 text-blue-900"
